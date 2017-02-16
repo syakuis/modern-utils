@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>modern toastr examples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="conteiner">
+    <button class="btn btn-default" type="button" onclick="Utils.popup({ url: 'https://github.com/syakuis/modern-utils', width: 400, height: 400 });">팝업열기</button>
+  </div>
+  <script>
+    console.log('sceenPoint', Utils.screenPoint(500, 500));
+    console.log('getParameter', Utils.getParameter('name'));
+  </script>
+</body>
+</html>

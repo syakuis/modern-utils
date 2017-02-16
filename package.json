@@ -1,0 +1,42 @@
+{
+  "name": "modern-utils",
+  "version": "1.0.0",
+  "description": "modern utils",
+  "author": "Syaku (최석균) <http://syaku.tistory.com>",
+  "license": "MIT",
+  "main": "dist/modern-utils.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syakuis/modern-utils.git"
+  },
+  "scripts": {
+    "prod": "webpack --colors --progress -p",
+    "serv": "webpack-dev-server"
+  },
+  "keywords": [
+    "utils",
+    "modern-utils",
+    "js",
+    "es6"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.2",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^1.16.3"
+  }
+}
